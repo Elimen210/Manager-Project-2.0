@@ -1,0 +1,11 @@
+/env
+/.vs
+/core/__pycache__
+/staticfiles/admin
+/Manager_Project_Website
+Manager Project Website.pyproj
+Manager Project Website.pyproj.user
+Manager Project Website.sln
+obj/Any CPU/Debug/Manager Project Website.pyproj.CoreCompileInputs.cache
+obj/Any CPU/Debug/Manager Project Website.pyproj.FileListAbsolute.txt
+/core/migrations

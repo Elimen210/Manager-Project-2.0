@@ -1,0 +1,27 @@
+body
+{
+    margin: 0;
+    background-color: orange;
+}
+
+.menu {
+    margin: 0 auto;
+    height: 100vh;
+    background: white;
+    border-radius: 50px;
+    width: 60vw;
+    padding-top: 15vh;
+    font-family: Calibri;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+mdp {
+    display: flex;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 100px;
+    gap: 3px;
+}
