@@ -19,10 +19,12 @@
             5- Quitter<br />
             6- Sauvegarder infos<br />
             7- Charger infos<br />
-            Lequel choissisez-vous ?<br />
-            -->
+            Lequel choissisez-vous ?
         </p>
-        <input class="mdp" type="search" placeholder="Votre choix..." />
+        <form method="POST" style="display: flex; flex-direction: column; width: 60%; margin: 0 auto;" action="">
+            {% csrf_token %}
+            <p>--></p><input class="mdp" type="search" name="answer" placeholder="Votre choix..." />
+        </form>
     </div>
 
 </body>

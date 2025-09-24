@@ -1,0 +1,24 @@
+{% load static %}
+
+<html>
+<head>
+    <title>1 - FAR</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+</head>
+
+<body>
+
+    <div class="menu">
+        <h1>Bonjour! Bienvenue dans Manager 2.0! (By Elimen)<br /></h1>
+        <p>
+            1- Ajouter un élément au manager<br />
+            2- Retour
+        </p>
+        <form method="POST">
+            {% csrf_token %}
+            <p>--></p><input class="mdp" type="search" placeholder="Votre choix..." />
+        </form>
+    </div>
+
+</body>
+</html>
